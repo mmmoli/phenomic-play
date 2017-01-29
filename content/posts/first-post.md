@@ -26,3 +26,12 @@ const StatelessComponent = (props) => {
     </StatelessComponent>
   )
 ```
+## Some cool html
+
+<form name="contact" netlify netlify-honeypot="bot-field">
+  <p><label>Email: <input name="email"></label></p>
+  <p class="hidden"><label>Bot field: <input name="bot-field"></label></p>
+  <p><label>Message: <textarea name="message"></textarea></label></p>
+  <p><button>Send</button></p>
+</form>
+
